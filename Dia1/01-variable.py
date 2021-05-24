@@ -1,29 +1,31 @@
-#Esto es un comentario
-# Variable numericas
-numero =1
-numeroDecimal =10.5
+# Esto es un comentario
+# Variables numericas
+numero = 1
+numeroDecimal = 10.5
 
-#Variable de texto
-# python prohibido ;  para salto cde linea triple doble comida
+# Variables de texto
 nombre = "eduardo"
-apellido = 'de rivero' #  cuando estamos guardando "
-apellido_materno='o"really'
+apellido = 'de rivero'
+apellido_materno = 'o"really'
 texto = """
 Hola:
-     ¿como estan?
-
-asdasdass
+    ¿Como estan?
+ asdasdasd
 """
-type(numeroDecimal)
+# sirve para saber que tipo de dato es esa variable
+# recordemos que en python el tipo de dato de la variable esta definida por su contenido
+# type(variable)
 print(type(numeroDecimal))
 print(type(texto))
 
-nombrecito =None # declarar varible nula/ undefined
-# Para definir una varible SIEMPRE tienen que empezar conletra unca con numero
-# Para eliminar una variabl
+# print => para imprimir en la consola todo lo que querramos
+# para declarar una variable sin valor seria de la siguiente manera:
+nombrecito = None  # None => null | undefined
+
+# Para definir una variable SIEMPRE tiene que comenzar con una letra NUNCA con numeros
+
+# Para eliminar una variable
 del nombrecito
-#Para definir varias variables en una sola linea
 
-nombre , nacionalidad = "Eduardo","peruano"
-
-
+# Para definir varias variables en una sola linea
+nombre, nacionalidad = "Eduardo", "peruano"
